@@ -1,0 +1,112 @@
+.btn1 {
+    border-radius: 5px;
+    margin : 2px 10px 10px;
+    padding: 4px 20px;
+    border: 1px solid black;
+    background-color: rgb(113, 204, 113);
+    color: black;
+}
+.btn2 {
+    border-radius: 5px;
+    margin : 2px 10px 10px;
+    padding: 4px 20px;
+    border: 1px solid black;
+    color: black;
+}
+.input1 {
+    border: 1px solid black;
+    margin : 0px 4px;
+}
+.input3 {
+    border: 1px solid black;
+    margin : 0px 4px;
+    width: 18%;
+}
+.container_fluid {
+    margin: 10px 20px;
+    background: darkslategrey;
+    color: white;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+}
+.btn3 {
+    align-self: center;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 4px 20px;
+}
+.headbtn {
+    padding: 30px 30px 10px 0px;
+    margin: 0 auto;
+}
+.footbtn {
+    text-align: right;
+    width: 100%;
+}
+.btn4 {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1px 25px;
+    font-size: 18px;
+    margin: 5px;
+}
+.input2 {
+    width: 5%;
+    border: 1px solid black;
+    margin: 0px 4px;
+    border-radius: 5px;
+}
+.calender {
+    display: flex;
+    justify-content: center;
+}
+.headtext {
+    padding: 40px 0px 0px 0px;
+    color : red;
+}
+.tabledata {
+    border: 1px solid black;
+    padding: 5px;
+}
+.tabledate {
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px 2px 2px 1px;
+    width : 20%;
+    padding: 10px 0px 10px 10px;
+    background-color: cadetblue;
+    color: white;
+    font-weight: bolder;
+}
+.tablemax {
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px 2px 2px 1px;
+    width : 10%;
+    padding: 10px 0px 10px 10px;
+    background-color: cadetblue;
+    color: white;
+    font-weight: bolder;
+}
+.tabledata {
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px 2px 2px 1px;
+    padding: 10px 0px 10px 10px;
+}
+
+.arbform{
+    text-align: center;   
+}
+
+.table{
+    width: 100%;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+}
