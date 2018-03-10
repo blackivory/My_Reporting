@@ -45,3 +45,14 @@ def fetchTicker(name, currency = 'BTC/USD'):
     print("data : ", data)
     return data
 
+
+def fetch_balance(name):
+    options = dict(config.getOptionsForExchange(name))
+    if(options):
+        exchange = createExchange(name, options)
+    else:
+        return {'status' : False, 'message' : 'No such Exchange is configured!'}
+    print('exchange.symbols : ', exchange.markets)
+    data = exchange.fetch_balance()
+    print("data : ", data)
+    return data
